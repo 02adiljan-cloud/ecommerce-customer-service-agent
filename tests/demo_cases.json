@@ -1,0 +1,29 @@
+[
+  {
+    "name": "订单查询",
+    "query": "帮我查询订单 ORD-202609-001",
+    "expected_tools": ["get_order"]
+  },
+  {
+    "name": "订单不存在",
+    "query": "查询一下 ORD-202609-999",
+    "expected_tools": ["get_order"]
+  },
+  {
+    "name": "缺少订单号",
+    "query": "帮我看看我的订单到哪了",
+    "expected_tools": []
+  },
+  {
+    "name": "后续物流联调",
+    "query": "订单 ORD-202609-001 怎么还没到？",
+    "expected_tools": ["get_order", "get_logistics"],
+    "status": "planned"
+  },
+  {
+    "name": "后续售后RAG联调",
+    "query": "订单 ORD-202609-004 的连衣裙收到时侧缝开线，退货运费谁承担？",
+    "expected_tools": ["get_order", "retrieve_policy"],
+    "status": "planned"
+  }
+]

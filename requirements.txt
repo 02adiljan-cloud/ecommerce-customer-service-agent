@@ -1,0 +1,6 @@
+# 与 Datawhale Hello-Agents 第七、八章 API 兼容。
+hello-agents==0.2.9
+
+# HelloAgents 0.2.9 导入评测模块时需要，但包元数据未自动声明。
+huggingface_hub==1.30.0
+python-dotenv==1.2.3

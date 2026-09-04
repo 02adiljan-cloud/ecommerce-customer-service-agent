@@ -1,0 +1,42 @@
+[
+  {
+    "tracking_number": "SF1234567890",
+    "carrier": "顺丰速运",
+    "status": "运输中",
+    "latest_location": "深圳转运中心",
+    "latest_update": "2026-09-04 09:20:00",
+    "estimated_delivery": "2026-09-05"
+  },
+  {
+    "tracking_number": "YT9876543210",
+    "carrier": "圆通速递",
+    "status": "已签收",
+    "latest_location": "深圳市南山区",
+    "latest_update": "2026-08-30 15:38:00",
+    "estimated_delivery": "2026-08-30"
+  },
+  {
+    "tracking_number": "ZT20260825004",
+    "carrier": "中通快递",
+    "status": "已签收",
+    "latest_location": "深圳市龙岗区",
+    "latest_update": "2026-08-28 13:12:00",
+    "estimated_delivery": "2026-08-28"
+  },
+  {
+    "tracking_number": "SF5556667770",
+    "carrier": "顺丰速运",
+    "status": "退货运输中",
+    "latest_location": "东莞退货中心",
+    "latest_update": "2026-09-04 08:05:00",
+    "estimated_delivery": "2026-09-05"
+  },
+  {
+    "tracking_number": "JD1231231230",
+    "carrier": "京东物流",
+    "status": "已签收",
+    "latest_location": "深圳市福田区",
+    "latest_update": "2026-08-20 17:26:00",
+    "estimated_delivery": "2026-08-20"
+  }
+]

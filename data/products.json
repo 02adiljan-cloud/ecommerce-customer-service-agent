@@ -1,0 +1,90 @@
+[
+  {
+    "product_id": "P1001",
+    "name": "宽松纯棉白色衬衫",
+    "category": "衬衫",
+    "colors": ["白色", "浅蓝色"],
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 199,
+    "fabric": "100%棉",
+    "season": "春秋",
+    "stock": 36
+  },
+  {
+    "product_id": "P1002",
+    "name": "基础圆领短袖T恤",
+    "category": "T恤",
+    "colors": ["黑色", "白色", "灰色"],
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "price": 89,
+    "fabric": "95%棉，5%氨纶",
+    "season": "夏季",
+    "stock": 120
+  },
+  {
+    "product_id": "P1003",
+    "name": "直筒水洗牛仔裤",
+    "category": "牛仔裤",
+    "colors": ["深蓝色", "浅蓝色"],
+    "sizes": ["28", "29", "30", "31", "32", "33", "34"],
+    "price": 239,
+    "fabric": "98%棉，2%氨纶",
+    "season": "四季",
+    "stock": 54
+  },
+  {
+    "product_id": "P1004",
+    "name": "法式收腰连衣裙",
+    "category": "连衣裙",
+    "colors": ["黑色", "酒红色"],
+    "sizes": ["S", "M", "L"],
+    "price": 299,
+    "fabric": "聚酯纤维混纺",
+    "season": "春夏",
+    "stock": 28
+  },
+  {
+    "product_id": "P1005",
+    "name": "轻薄防风连帽外套",
+    "category": "外套",
+    "colors": ["卡其色", "藏青色"],
+    "sizes": ["M", "L", "XL", "XXL"],
+    "price": 359,
+    "fabric": "锦纶",
+    "season": "春秋",
+    "stock": 42
+  },
+  {
+    "product_id": "P1006",
+    "name": "速干运动套装",
+    "category": "运动服",
+    "colors": ["黑色", "墨绿色"],
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 269,
+    "fabric": "聚酯纤维、氨纶",
+    "season": "四季",
+    "stock": 63
+  },
+  {
+    "product_id": "P1007",
+    "name": "美利奴羊毛针织衫",
+    "category": "针织衫",
+    "colors": ["米色", "炭灰色"],
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 429,
+    "fabric": "100%美利奴羊毛",
+    "season": "秋冬",
+    "stock": 19
+  },
+  {
+    "product_id": "P1008",
+    "name": "中长款羽绒服",
+    "category": "羽绒服",
+    "colors": ["黑色", "奶白色"],
+    "sizes": ["S", "M", "L", "XL"],
+    "price": 899,
+    "fabric": "锦纶面料，90%白鸭绒填充",
+    "season": "冬季",
+    "stock": 16
+  }
+]
