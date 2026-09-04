@@ -21,9 +21,23 @@
     "status": "planned"
   },
   {
-    "name": "后续售后RAG联调",
+    "name": "售后RAG联调",
     "query": "订单 ORD-202609-004 的连衣裙收到时侧缝开线，退货运费谁承担？",
-    "expected_tools": ["get_order", "retrieve_policy"],
-    "status": "planned"
+    "expected_tools": ["get_order", "search_policy"],
+    "status": "ready"
+  },
+  {
+    "name": "七天无理由退货政策",
+    "query": "七天无理由退货需要满足什么条件？",
+    "expected_tools": ["search_policy"],
+    "expected_source": "return_policy.md",
+    "status": "ready"
+  },
+  {
+    "name": "退款到账时间",
+    "query": "银行卡退款一般多久能到账？",
+    "expected_tools": ["search_policy"],
+    "expected_source": "refund_timeline.md",
+    "status": "ready"
   }
 ]

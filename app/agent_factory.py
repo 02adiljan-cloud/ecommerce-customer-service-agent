@@ -7,6 +7,7 @@ from hello_agents import HelloAgentsLLM, SimpleAgent, ToolRegistry
 from app.config import Settings
 from app.prompts import SYSTEM_PROMPT
 from app.tools.order_tool import OrderQueryTool
+from app.tools.policy_rag_tool import PolicyRAGTool
 
 
 def build_agent() -> SimpleAgent:
@@ -25,6 +26,7 @@ def build_agent() -> SimpleAgent:
 
     registry = ToolRegistry()
     registry.register_tool(OrderQueryTool())
+    registry.register_tool(PolicyRAGTool())
 
     return SimpleAgent(
         name="电商客服Agent",

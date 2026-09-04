@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "namespace": "fashion_after_sales",
+  "updated_at": "2026-09-04",
+  "documents": [
+    {
+      "source": "return_policy.md",
+      "document_id": "AFTERSALE-RETURN-001",
+      "title": "七天无理由退货政策",
+      "category": "退换货",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "status": "active",
+      "keywords": ["退货", "七天无理由", "吊牌", "二次销售", "贴身衣物"]
+    },
+    {
+      "source": "quality_issue_policy.md",
+      "document_id": "AFTERSALE-QUALITY-002",
+      "title": "服装质量问题处理政策",
+      "category": "质量售后",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "status": "active",
+      "keywords": ["质量问题", "破洞", "开线", "拉链", "污渍", "照片凭证"]
+    },
+    {
+      "source": "shipping_fee_policy.md",
+      "document_id": "AFTERSALE-FREIGHT-003",
+      "title": "售后运费承担规则",
+      "category": "售后运费",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "status": "active",
+      "keywords": ["运费", "邮费", "运费险", "质量问题", "个人原因"]
+    },
+    {
+      "source": "refund_timeline.md",
+      "document_id": "AFTERSALE-REFUND-004",
+      "title": "退款到账时间说明",
+      "category": "退款",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "status": "active",
+      "keywords": ["退款", "到账", "银行卡", "信用卡", "电子钱包", "工作日"]
+    },
+    {
+      "source": "promotion_policy.md",
+      "document_id": "AFTERSALE-PROMO-005",
+      "title": "促销商品售后规则",
+      "category": "促销售后",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "status": "active",
+      "keywords": ["促销", "优惠券", "满减", "折扣", "赠品", "退款金额"]
+    },
+    {
+      "source": "size_guide.md",
+      "document_id": "PRODUCT-SIZE-001",
+      "title": "服装尺码建议",
+      "category": "商品尺码",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "status": "active",
+      "keywords": ["尺码", "身高", "体重", "肩宽", "胸围", "腰围", "版型"]
+    },
+    {
+      "source": "fabric_care_guide.md",
+      "document_id": "PRODUCT-CARE-001",
+      "title": "常见面料洗护指南",
+      "category": "商品洗护",
+      "version": "1.0",
+      "effective_date": "2026-01-01",
+      "status": "active",
+      "keywords": ["洗护", "洗涤", "纯棉", "羊毛", "氨纶", "羽绒服"]
+    }
+  ]
+}
